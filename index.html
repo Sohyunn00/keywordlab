@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>keywordlab</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/fullpage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/XEIcon-2.2.0/xeicon.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/fullpage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- 헤더 🍅 -->
+      <header>
+        <div class="con">
+          <h1>
+            <a href="/">
+              <img src="./assets/img/logo.png" alt="logo" />
+              <span class="blind">키워드랩</span>
+            </a>
+          </h1>
+          <nav class="gnb">
+            <ul class="nav_list">
+              <li>
+                <a href="#">KEYWORD LAB</a>
+                <ul class="submenu">
+                  <li><a href="#">회사소개</a></li>
+                  <li><a href="#">회사연혁</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">서비스 소개</a>
+                <ul class="submenu">
+                  <li><a href="#">체험단 마케팅</a></li>
+                  <li><a href="#">스마트스토어 마케팅</a></li>
+                  <li><a href="#">플레이스 마케팅</a></li>
+                  <li><a href="#">인스타그램 마케팅</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">포트폴리오</a>
+                <ul class="submenu">
+                  <li><a href="#">성공사례</a></li>
+                  <li><a href="#">수상</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">소식</a>
+                <ul class="submenu">
+                  <li><a href="#">기사</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">문의</a>
+                <ul class="submenu">
+                  <li><a href="#">상담신청</a></li>
+                  <li><a href="#">오시는길</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="sns_wrap">
+            <a href="#" class="kakao">
+              <span class="blind">카카오채널</span>
+            </a>
+            <a href="#" class="instagram">
+              <span class="blind">인스타그램</span>
+            </a>
+          </div>
+          <!-- 햄버거 버튼 -->
+          <button class="slide_btn">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </button>
+          <!-- 슬라이드 메뉴 -->
+          <div class="slide_menu">
+            <div class="slide_logo">
+              <img src="./assets/img/logo_m.png" alt="" />
+            </div>
+            <ul class="menu_list">
+              <li>
+                <a href="#" class="nav">KEYWORD LAB<i></i></a>
+                <ul class="sub_list">
+                  <li><a href="#">회사소개</a></li>
+                  <li><a href="#">회사연혁</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="nav">서비스 소개<i></i></a>
+                <ul class="sub_list">
+                  <li><a href="#">체험단 마케팅</a></li>
+                  <li><a href="#">스마트스토어 마케팅</a></li>
+                  <li><a href="#">플레이스 마케팅</a></li>
+                  <li><a href="#">인스타그램 마케팅</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="nav">포트폴리오<i></i></a>
+                <ul class="sub_list">
+                  <li><a href="#">성공사례</a></li>
+                  <li><a href="#">수상</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="nav">소식<i></i></a>
+                <ul class="sub_list">
+                  <li><a href="#">기사</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="nav">문의<i></i></a>
+                <ul class="sub_list">
+                  <li><a href="#">상담신청</a></li>
+                  <li><a href="#">오시는길</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="slide_sns_wrap">
+              <a href="#" class="kakao">
+                <span class="blind">카카오톡</span> <i></i>
+              </a>
+              <a href="#" class="instagram">
+                <span class="blind">인스타그램</span> <i></i>
+              </a>
+            </div>
+          </div>
+          <div class="dimmed"></div>
+          <div class="mobile_bg"></div>
+        </div>
+      </header>
+
+      <main id="fullpage">
+        <!-- 메인비주얼 -->
+        <section class="section main_visual">
+          <div class="con">
+            <div class="text">
+              <h2>
+                광고대행사도 의뢰하는<br /><span class="blue"
+                  >바이럴 마케팅</span
+                >
+                <img src="./assets/img/visual-text.png" alt="logo" /><br
+                  class="mobile"
+                />
+                <span>전문가 집단</span>
+              </h2>
+            </div>
+            <div class="img">
+              <div class="img1">
+                <img src="./assets/img/visual-img1.png" alt="이미지" />
+              </div>
+              <div class="img2">
+                <img src="./assets/img/visual-img3.png" alt="이미지" />
+              </div>
+              <div class="img3">
+                <img src="./assets/img/visual-img2.png" alt="이미지" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 섹션 1 -->
+        <section class="section marketer">
+          <div class="con">
+            <h2>
+              온라인 마케팅 전문가들이<br /><span class="blue">결과</span>로
+              증명합니다.
+            </h2>
+            <div class="count_wrap">
+              <div class="box">
+                <div class="top">
+                  <img src="./assets/img/icon1.png" alt="icon" />
+                  <span>설립연도</span>
+                </div>
+                <div class="count_box">
+                  <div class="number">
+                    <ul class="count_list down">
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">9</li>
+                      <li class="item">0</li>
+                      <li class="item">2</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list up">
+                      <li class="item">0</li>
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">0</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list down">
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">9</li>
+                      <li class="item">1</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list up">
+                      <li class="item">9</li>
+                      <li class="item">8</li>
+                      <li class="item">7</li>
+                      <li class="item">6</li>
+                      <li class="item">5</li>
+                      <li class="item">4</li>
+                      <li class="item">3</li>
+                      <li class="item">2</li>
+                      <li class="item">1</li>
+                      <li class="item">9</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="top">
+                  <img src="./assets/img/icon2.png" alt="icon" />
+                  <span>상담 누적 업체</span>
+                </div>
+                <div class="count_box">
+                  <div class="number">
+                    <ul class="count_list down">
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">9</li>
+                      <li class="item">0</li>
+                      <li class="item">2</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list up">
+                      <li class="item">0</li>
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">0</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list down">
+                      <li class="item">0</li>
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">0</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list up">
+                      <li class="item">0</li>
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">0</li>
+                    </ul>
+                  </div>
+                  <span>+</span>
+                </div>
+              </div>
+              <div class="box">
+                <div class="top">
+                  <img src="./assets/img/icon3.png" alt="icon" />
+                  <span>누적 계약</span>
+                </div>
+                <div class="count_box">
+                  <div class="number">
+                    <ul class="count_list down">
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">9</li>
+                      <li class="item">1</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list up">
+                      <li class="item">0</li>
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">0</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list down">
+                      <li class="item">0</li>
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">0</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list up">
+                      <li class="item">0</li>
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">0</li>
+                    </ul>
+                  </div>
+                  <div class="number">
+                    <ul class="count_list up">
+                      <li class="item">0</li>
+                      <li class="item">1</li>
+                      <li class="item">2</li>
+                      <li class="item">3</li>
+                      <li class="item">4</li>
+                      <li class="item">5</li>
+                      <li class="item">6</li>
+                      <li class="item">7</li>
+                      <li class="item">8</li>
+                      <li class="item">0</li>
+                    </ul>
+                  </div>
+                  <span>+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg">
+            <img src="./assets/img/bgonlinemarketer.png" alt />
+          </div>
+        </section>
+        <!-- 섹션 2 -->
+        <section class="section services">
+          <div class="con">
+            <div class="left">
+              <div class="title">
+                <h2>서비스 소개</h2>
+                <p>
+                  키워드랩은 <span class="blue">데이터 분석 기반</span><br />
+                  <span class="blue">최상의 마케팅 성과</span>를 제공해드립니다
+                </p>
+              </div>
+              <div class="menu_tab">
+                <a href="#" class="tab1 on"> <span>01</span>체험단 마케팅 </a>
+                <a href="#" class="tab2"><span>02</span>스마트스토어 마케팅</a>
+                <a href="#" class="tab3"> <span>03</span>플레이스 마케팅 </a>
+                <a href="#" class="tab4"> <span>04</span>인스타그램 마케팅 </a>
+                <div class="on_icon">
+                  <span><i></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="page service1 on">
+                <span class="blue">01</span>
+                <h3>체험단 마케팅</h3>
+                <p class="top_text">
+                  브랜드를 성공으로 이끌어가는 키워드랩 체험단 마케팅<br />
+                  전문 인플루언서와 함께하는 프리미엄 체험단 서비스입니다.
+                </p>
+                <p class="bottom_text">
+                  체험단이라고 다 똑같지 않습니다.<br />
+                  다년간 수많은 캠페인을 통해 노하우가 많은 인플루언서가
+                  꼼꼼하고 세심하게 평가하여<br />
+                  클라이언트의 제품 가치를 극대화해드립니다.
+                </p>
+                <a href="#" class="more"
+                  >VIEW MORE<span><i></i></span
+                ></a>
+                <img src="./assets/img/tabimg1.png" alt="service" />
+              </div>
+              <div class="page service2">
+                <span class="blue">02</span>
+                <h3>스마트스토어 마케팅</h3>
+                <p class="top_text">
+                  스마트스토어 점수 값은 적합도, 인기도, 신뢰도<br />
+                  총 3가지 구성으로 이루어집니다.
+                </p>
+                <p class="bottom_text">
+                  스마트스토어 마케팅은 검색엔진 최적화(SEO), 체험단 마케팅,
+                  스마트스토어 리뷰, 알림받기,<br />
+                  찜하기, 인스타그램 인기 게시물 서비스를 통해 스토어를
+                  활성화함으로써 <br />
+                  일시적인 매출이 아닌 지속적인 매출로 이어질 수 있도록 서비스를
+                  제공하고 있습니다.
+                </p>
+                <a href="#" class="more"
+                  >VIEW MORE<span><i></i></span
+                ></a>
+                <img src="./assets/img/tabimg2.png" alt />
+              </div>
+              <div class="page service3">
+                <span class="blue">03</span>
+                <h3>플레이스 마케팅</h3>
+                <p class="top_text">
+                  플레이스는 적합도, 인기도, 리뷰, 저장하기<br />
+                  총 4가지 요소로 인해 순위 최적화가 이루어집니다
+                </p>
+                <p class="bottom_text">
+                  플레이스 같은 경우에는 단기간에 큰 변화가 발생하지 않으며
+                  <br />
+                  스스로 관리하기가 쉽지 않고, 많은 시간과 공수가 들어갑니다.
+                  세심하게 평가하여<br />
+                  특정 요소에만 비중이 큰 점수 반영이 되어서는 상위 노출이 되기
+                  어려우며 ,<br />
+                  오히려 최적화 조건에 맞지 않아 불이익을 받는 경우가 많습니다.
+                </p>
+                <a href="#" class="more"
+                  >VIEW MORE<span><i></i></span
+                ></a>
+                <img src="./assets/img/tabimg3.png" alt />
+              </div>
+              <div class="page service4">
+                <span class="blue">04</span>
+                <h3>인스타그램 마케팅</h3>
+                <p class="top_text">
+                  10명 중에 8명이 사용하는<br />
+                  압도적인 국내 이용자 1위 SNS 플랫폼 인스타그램
+                </p>
+                <p class="bottom_text">
+                  인스타그램 마케팅을 통해 폭발적인 매출 상승의 길로
+                  인도해드리겠습니다.
+                </p>
+                <a href="#" class="more"
+                  >VIEW MORE<span><i></i></span
+                ></a>
+                <img src="./assets/img/tabimg4.png" alt />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 섹션 3 -->
+        <section class="section history">
+          <div class="con">
+            <div class="left">
+              <h2>연혁</h2>
+              <div class="year_tab">
+                <button data-tabslide="#slide1" class="on">2023</button>
+                <button data-tabslide="#slide2">2022</button>
+                <button data-tabslide="#slide3">2021</button>
+                <button data-tabslide="#slide4">2020</button>
+                <button data-tabslide="#slide5">2019</button>
+              </div>
+            </div>
+            <div class="right">
+              <div id="slide1" class="tab_con on">
+                <div class="swiper tab_slide">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide on">
+                      <span class="top">05월</span>
+                      <p class="hidden">
+                        스마트스토어 마케팅 가입자 수 2,000건 달성
+                      </p>
+                      <div class="bottom">
+                        <p>스마트스토어 마케팅 가입자 수 2,000건 달성</p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">04월</span>
+                      <p class="hidden">
+                        2023년 NICE 기술평가 우수기업 인증 수상
+                      </p>
+                      <div class="bottom">
+                        <p>2023년 NICE 기술평가 우수기업 인증 수상</p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">03월</span>
+                      <p class="hidden">
+                        2023 히트브랜드 대상 1위 '바이럴 마케팅 부문' 1위 수상
+                      </p>
+                      <div class="bottom">
+                        <p>
+                          2023 히트브랜드 대상 1위 '바이럴 마케팅 부문' 1위 수상
+                        </p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">02월</span>
+                      <p class="hidden">기업부설연구소 설립</p>
+                      <div class="bottom">
+                        <p>기업부설연구소 설립</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="control">
+                  <button class="btn-prev prev1">
+                    <i></i>
+                    <span class="blind">이전</span>
+                  </button>
+                  <button class="btn-next next1">
+                    <i></i>
+                    <span class="blind">다음</span>
+                  </button>
+                </div>
+              </div>
+              <div id="slide2" class="tab_con">
+                <div class="swiper tab_slide">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide on">
+                      <span class="top">11월</span>
+                      <p class="hidden">누적 계약 1,000건 돌파</p>
+                      <div class="bottom">
+                        <p>누적 계약 1,000건 돌파</p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">09월</span>
+                      <p class="hidden">
+                        온라인 비즈니스 솔루션 개발 및 인프라 구축
+                      </p>
+                      <div class="bottom">
+                        <p>온라인 비즈니스 솔루션 개발 및 인프라 구축</p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">06월</span>
+                      <p class="hidden">
+                        2022 대한민국 고객만족지수 1위, 전문 과학 및
+                        기술서비스업 부문 수상
+                      </p>
+                      <div class="bottom">
+                        <p>
+                          2022 대한민국 고객만족지수 1위, 전문 과학 및
+                          기술서비스업 부문 수상
+                        </p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">05월</span>
+                      <p class="hidden">㈜키워드랩 법인 설립</p>
+                      <div class="bottom">
+                        <p>㈜키워드랩 법인 설립</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="control">
+                  <button class="btn-prev prev2">
+                    <i></i>
+                    <span class="blind">이전</span>
+                  </button>
+                  <button class="btn-next next2">
+                    <i></i>
+                    <span class="blind">다음</span>
+                  </button>
+                </div>
+              </div>
+              <div id="slide3" class="tab_con">
+                <div class="swiper tab_slide">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide on">
+                      <span class="top">11월</span>
+                      <p class="hidden">기업부설연구원 자격증 취득</p>
+                      <div class="bottom">
+                        <p>기업부설연구원 자격증 취득</p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">08월</span>
+                      <p class="hidden">
+                        전 사원 SNS 마케팅 전문가 , 검색광고 마케터 1급 ,
+                        광고기획 전문가 1급 자격증 취득
+                      </p>
+                      <div class="bottom">
+                        <p>
+                          전 사원 SNS 마케팅 전문가 , 검색광고 마케터 1급 ,
+                          광고기획 전문가 1급 자격증 취득
+                        </p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">06월</span>
+                      <p class="hidden">
+                        소규모 사업자 대상 Instagram 마케팅 세미나 무료 개최
+                      </p>
+                      <div class="bottom">
+                        <p>
+                          소규모 사업자 대상 Instagram 마케팅 세미나 무료 개최
+                        </p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">03월</span>
+                      <p class="hidden">
+                        온라인 마케팅 플랫폼 서비스 확장<br />스마트스토어 종합
+                        마케팅 서비스 런칭
+                      </p>
+                      <div class="bottom">
+                        <p>
+                          온라인 마케팅 플랫폼 서비스 확장 스마트스토어 종합
+                          마케팅 서비스 런칭
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="control">
+                  <button class="btn-prev prev3">
+                    <i></i>
+                    <span class="blind">이전</span>
+                  </button>
+                  <button class="btn-next next3">
+                    <i></i>
+                    <span class="blind">다음</span>
+                  </button>
+                </div>
+              </div>
+              <div id="slide4" class="tab_con">
+                <div class="swiper tab_slide">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide on">
+                      <span class="top">12월</span>
+                      <p class="hidden">누적 계약 500건 돌파</p>
+                      <div class="bottom">
+                        <p>누적 계약 500건 돌파</p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">06월</span>
+                      <p class="hidden">마케팅 서비스 재계약율 90% 달성</p>
+                      <div class="bottom">
+                        <p>마케팅 서비스 재계약율 90% 달성</p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">02월</span>
+                      <p class="hidden">
+                        바이럴 마케팅 부문 '광고대행사 최우수 기업 TOP 100' 선정
+                      </p>
+                      <div class="bottom">
+                        <p>
+                          바이럴 마케팅 부문 '광고대행사 최우수 기업 TOP 100'
+                          선정
+                        </p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">01월</span>
+                      <p class="hidden">
+                        중소기업 대상 'SEO 검색엔진최적화' 마케팅 서비스 무료
+                        배포<br />스마트스토어 종합 마케팅 서비스 런칭
+                      </p>
+                      <div class="bottom">
+                        <p>
+                          중소기업 대상 'SEO 검색엔진최적화' 마케팅 서비스 무료
+                          배포
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="control">
+                  <button class="btn-prev prev4">
+                    <i></i>
+                    <span class="blind">이전</span>
+                  </button>
+                  <button class="btn-next next4">
+                    <i></i>
+                    <span class="blind">다음</span>
+                  </button>
+                </div>
+              </div>
+              <div id="slide5" class="tab_con">
+                <div class="swiper tab_slide">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide on">
+                      <span class="top">10월</span>
+                      <p class="hidden">디지털 마케팅 네트워크 구축</p>
+                      <div class="bottom">
+                        <p>디지털 마케팅 네트워크 구축</p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">07월</span>
+                      <p class="hidden">소상공인 종합 패키지 출시</p>
+                      <div class="bottom">
+                        <p>소상공인 종합 패키지 출시</p>
+                      </div>
+                    </li>
+                    <li class="swiper-slide">
+                      <span class="top">05월</span>
+                      <p class="hidden">빅픽처 마케팅 설립</p>
+                      <div class="bottom">
+                        <p>빅픽처 마케팅 설립</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="control">
+                  <button class="btn-prev">
+                    <i></i>
+                    <span class="blind">이전</span>
+                  </button>
+                  <button class="btn-next">
+                    <i></i>
+                    <span class="blind">다음</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 섹션 4 -->
+        <section class="section advertise">
+          <div class="con">
+            <div class="brand_top">
+              <h2>
+                디테일의 차이로 <br />
+                광고주님의 <span class="blue">만족</span>을 높입니다.
+              </h2>
+              <img src="./assets/img/visual-img5.png" alt="img" />
+            </div>
+            <div class="brand_wrap">
+              <ul>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img1.png"
+                    alt="blackcowlabs"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img2.png"
+                    alt="TGO MAT"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img3.png"
+                    alt="열정농부2"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img4.png"
+                    alt="ARTOIS"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img5.png"
+                    alt="리진한복"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img6.png"
+                    alt="LIGNE SELECT"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img7.png"
+                    alt="Gitden"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img8.png"
+                    alt="grn+"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img9.png"
+                    alt="GLASSCODE_3927"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img10.png"
+                    alt="BLACK GLASSCODE_3927"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img11.jpg"
+                    alt="Dr.Bio"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img12.jpg"
+                    alt="키토선생"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img13.jpg"
+                    alt="레나에너지"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img14.jpg"
+                    alt="레토"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img15.jpg"
+                    alt="허브타임"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/advertiser/advertiser_img16.jpg"
+                    alt="프리메이드"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="text_slide">
+              <div class="text_wrap1">
+                <strong>KEYWORD LAB</strong>
+                <strong>KEYWORD LAB</strong>
+                <strong>KEYWORD LAB</strong>
+                <strong>KEYWORD LAB</strong>
+              </div>
+              <div class="text_wrap2">
+                <strong>KEYWORD LAB</strong>
+                <strong>KEYWORD LAB</strong>
+                <strong>KEYWORD LAB</strong>
+                <strong>KEYWORD LAB</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 섹션 5 -->
+        <section class="section news">
+          <div class="con">
+            <h2>뉴스</h2>
+            <div class="news_con">
+              <div class="swiper news_slide">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <span class="top_text blue">NEWS</span>
+                      <p class="text">
+                        (주)키워드랩 '2022 대한민국 고객만족지수 1위 수상' 광고
+                        대행업, 소프트웨어 개발 및 공급업' 부문 1위
+                      </p>
+                      <span class="date_area"> 2023.08.09 </span>
+                      <p class="viewmore">VIEW MORE<i></i></p>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <span class="top_text blue">NEWS</span>
+                      <p class="text">
+                        (주)키워드랩 ‘2023 히트브랜드 대상’ 바이럴 마케팅 부문
+                        1위 수상
+                      </p>
+                      <span class="date_area"> 2023.08.09 </span>
+                      <p class="viewmore">VIEW MORE<i></i></p>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <span class="top_text blue">NEWS</span>
+                      <p class="text">
+                        (주)키워드랩 '2022 대한민국 고객만족지수 1위 수상' 광고
+                        대행업, 소프트웨어 개발 및 공급업' 부문 1위
+                      </p>
+                      <span class="date_area"> 2023.08.09 </span>
+                      <p class="viewmore">VIEW MORE<i></i></p>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <span class="top_text blue">NEWS</span>
+                      <p class="text">
+                        (주)키워드랩 ‘2023 히트브랜드 대상’ 바이럴 마케팅 부문
+                        1위 수상
+                      </p>
+                      <span class="date_area"> 2023.08.09 </span>
+                      <p class="viewmore">VIEW MORE<i></i></p>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <span class="top_text blue">NEWS</span>
+                      <p class="text">
+                        (주)키워드랩 '2022 대한민국 고객만족지수 1위 수상' 광고
+                        대행업, 소프트웨어 개발 및 공급업' 부문 1위
+                      </p>
+                      <span class="date_area"> 2023.08.09 </span>
+                      <p class="viewmore">VIEW MORE<i></i></p>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <span class="top_text blue">NEWS</span>
+                      <p class="text">
+                        (주)키워드랩 ‘2023 히트브랜드 대상’ 바이럴 마케팅 부문
+                        1위 수상
+                      </p>
+                      <span class="date_area"> 2023.08.09 </span>
+                      <p class="viewmore">VIEW MORE<i></i></p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="control">
+                <button class="prev">
+                  <span class="blind">이전</span>
+                </button>
+                <button class="next">
+                  <span class="blind">다음</span>
+                </button>
+              </div>
+              <div class="swiper-pagination">
+                <span class="swiper-pagination-progressbar-fill"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 섹션 6 -->
+        <section class="section bottom_visual">
+          <div class="con">
+            <h2>
+              키워드랩은<br />언제나 새로운 기회를<br />기다리고 있습니다.
+            </h2>
+            <a href=""> <img src="./assets/img/visual-img4.png" alt /> </a>
+          </div>
+        </section>
+        <footer class="section footer fp-auto-height">
+          <div class="con">
+            <div class="left">
+              <img src="./assets/img/logo.png" alt="keywordlab" />
+              <p>COPYRIGHT © 2023 KEYWORD LAB Co., Ltd. ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="right">
+              <div class="con1">
+                <strong>INFORMATION</strong>
+                <dl>
+                  <dt>회사명</dt>
+                  <dd>(주)키워드랩</dd>
+                </dl>
+                <dl>
+                  <dt>사업자등록번호</dt>
+                  <dd>591-87-02465</dd>
+                </dl>
+                <dl>
+                  <dt>통신판매업 신고번호</dt>
+                  <dd>2022-서울금천-2991</dd>
+                </dl>
+              </div>
+              <div class="con2">
+                <strong>ADDRESS</strong>
+                <dl>
+                  <dd>
+                    서울특별시 금천구 디지털로9길 46,5층
+                    502호(가산동,이앤씨드림타워7차)
+                  </dd>
+                </dl>
+              </div>
+              <div class="con3">
+                <strong>CONTACT</strong>
+                <dl>
+                  <dt class="">전화번호</dt>
+                  <dd>1522-1654</dd>
+                </dl>
+                <dl>
+                  <dt>이메일</dt>
+                  <dd><a href="">contact@keywordlab.kr</a></dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+      <div class="fixed_btn_wrap">
+        <div class="btn_box">
+          <a href="#" class="link_survice">
+            <img src="./assets/img/link-surviceimg.png" alt="상담하기" />
+          </a>
+          <button class="top_btn">
+            <span class="blind">TOP</span>
+            <i></i>
+          </button>
+        </div>
+      </div>
+      <div class="mouse"><div class="img"></div></div>
+    </div>
+    <script src="./assets/js/js.js"></script>
+  </body>
+</html>
