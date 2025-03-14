@@ -98,13 +98,11 @@ $(function () {
   // 메인비주얼 🍅🍅🍅
   //도형 움직임
   $(".main_visual .img div").each(function (i, el) {
-    //공통클래스로 반복문 돌리기
     $(el).mousemove(function (e) {
-      w = $(this).width(); //넓이값
-      h = $(this).height(); //높이값
-      xVal = e.offsetX - w / 2; //중심값잡아주기
-      yVal = e.offsetY - h / 2; //중심값잡아주기
-      //offset으로 선택한 요소의 좌표를 가져옴
+      let w = $(this).width(); // 넓이값
+      let h = $(this).height(); // 높이값
+      let xVal = e.offsetX - w / 2; // 중심값잡아주기
+      let yVal = e.offsetY - h / 2; // 중심값잡아주기
 
       gsap.to($(this).find("img"), {
         rotateX: -xVal / 10,

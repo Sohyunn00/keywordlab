@@ -368,7 +368,7 @@ body.on .dimmed {
 
 /* 메인비주얼 🍅🍅🍅 */
 main .main_visual {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .main_visual .text {
   display: flex;
@@ -385,7 +385,7 @@ main .main_visual {
 .main_visual .text h2 {
   animation: main_textUp 1.5s ease;
 }
-/* @keyframes main_textUp {
+@keyframes main_textUp {
   0% {
     opacity: 0;
     margin-top: 100px;
@@ -394,7 +394,7 @@ main .main_visual {
     opacity: 1;
     margin-top: 0px;
   }
-} */
+}
 .main_visual .text span {
   float: left;
 }
@@ -417,39 +417,38 @@ main .main_visual {
 .main_visual .img div {
   position: absolute;
   animation: imgUp 1.2s ease;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
+  /* transform-origin: center; */
 }
-/* @keyframes imgUp {
+.main_visual .img .img1 {
+  width: 10.7rem;
+  height: 10.7rem;
+  top: 15%;
+  right: 25%;
+}
+.main_visual .img .img2 {
+  width: 49.8rem;
+  height: 40rem;
+  top: 50%;
+  right: 15%;
+}
+.main_visual .img .img3 {
+  width: 50rem;
+  height: 45.7rem;
+  top: 20%;
+  right: 35%;
+}
+.main_visual .img .img3 img {
+  will-change: transform;
+  transform: perspective(1000px);
+}
+@keyframes imgUp {
   0% {
     transform: scale(0.1, 0.1);
   }
   100% {
     transform: scale(1, 1);
   }
-} */
-.main_visual .img .img1 {
-  width: 10.7rem;
-  height: 10.7rem;
-  margin-top: -26rem;
-  margin-left: 16rem;
-}
-.main_visual .img .img2 {
-  width: 49.8rem;
-  height: 40rem;
-  margin-top: 17.5rem;
-  margin-left: 3rem;
-}
-.main_visual .img .img3 {
-  width: 47.2rem;
-  height: 45.7rem;
-  margin-top: -9.5rem;
-  margin-left: -6rem;
-}
-.main_visual .img .img3 img {
-  will-change: transform;
-  transform: perspective(1000px);
 }
 /* 섹션 1 🍅🍅🍅 */
 .marketer .con {
@@ -463,6 +462,7 @@ main .main_visual {
   top: 0;
   width: 100vw;
   height: 100vh;
+  transform: scale(1.2);
   z-index: -1;
 }
 .con h2 {
@@ -769,10 +769,10 @@ main .main_visual {
   margin: 0px auto;
 }
 .history .left {
-  width: 25%;
-  padding-left: 10rem;
+  width: 20%;
+  padding-left: 0;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   background-color: #fff;
 }
 .history .left h2 {
@@ -797,7 +797,7 @@ main .main_visual {
   color: var(--main-color);
 }
 .history .right {
-  width: 75%;
+  width: 80%;
 }
 .history .right .tab_con {
   width: 100%;
