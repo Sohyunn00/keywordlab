@@ -29,11 +29,12 @@ section {
 }
 /* TOP버튼 🍅🍅🍅🍅 */
 .fixed_btn_wrap {
-  position: relative;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   top: 0;
   right: 0;
+  pointer-events: none;
 }
 .fixed_btn_wrap .btn_box {
   width: fit-content;
@@ -45,6 +46,7 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+  pointer-events: auto;
 }
 .btn_box .top_btn {
   width: 46px;
@@ -250,7 +252,7 @@ body.on .dimmed {
   visibility: visible;
 }
 .slide_menu {
-  width: 36%;
+  width: 45%;
   height: 100%;
   position: fixed;
   top: 0;
@@ -373,16 +375,16 @@ main .main_visual {
 .main_visual .text {
   display: flex;
   align-items: center;
-  max-width: 1420px;
+  width: 90%;
   height: fit-content;
   margin: 0px auto;
-  font-size: 7.2rem;
   font-weight: 800;
   letter-spacing: -0.025em;
   color: var(--main-black);
   line-height: 1.25;
 }
 .main_visual .text h2 {
+  font-size: 8rem;
   animation: main_textUp 1.5s ease;
 }
 @keyframes main_textUp {
@@ -404,7 +406,7 @@ main .main_visual {
   top: 0.8rem;
   margin-right: 10px;
 }
-.main_visual .text .mobile {
+.mobile {
   display: none;
 }
 .main_visual .img {
@@ -461,9 +463,11 @@ main .main_visual {
   position: absolute;
   top: 0;
   width: 100vw;
-  height: 100vh;
-  transform: scale(1.2);
+  height: 100%;
   z-index: -1;
+}
+.marketer .bg img {
+  transform: scale(1.2);
 }
 .con h2 {
   font-size: 6.2rem;
@@ -476,7 +480,7 @@ main .main_visual {
   margin-bottom: 16.5rem;
 }
 .marketer.active h2 {
-  animation: titleUp 0.8s linear both;
+  animation: titleUp 0.8s 0.3s linear both;
 }
 @keyframes titleUp {
   0% {
@@ -585,8 +589,8 @@ main .main_visual {
   width: 30%;
   padding-left: 3rem;
 }
-.services.active .left .title {
-  animation: titleUp 0.8s linear;
+.services .left .title {
+  animation: titleUp 0.8s 0.3s linear forwards;
 }
 @keyframes titleUp {
   0% {
@@ -774,7 +778,8 @@ main .main_visual {
 }
 /* 섹션 3 🍅🍅🍅 */
 .history.active {
-  animation: sectionUp 1s linear;
+  opacity: 0;
+  animation: sectionUp 1s 0.3s linear both;
 }
 .history .con {
   display: flex;
@@ -787,7 +792,7 @@ main .main_visual {
 @keyframes sectionUp {
   0% {
     opacity: 0;
-    transform: translateY(20%);
+    transform: translateY(15%);
   }
   to {
     opacity: 1;
@@ -800,6 +805,9 @@ main .main_visual {
   position: relative;
   z-index: 2;
   background-color: #fff;
+}
+.history .left .m_tab {
+  display: none;
 }
 .history .left h2 {
   margin-bottom: 7.5rem;
@@ -922,7 +930,7 @@ main .main_visual {
 }
 /* 섹션 4 🍅🍅🍅 */
 .advertise.active {
-  animation: sectionUp 0.8s linear;
+  animation: sectionUp 1s 0.3s linear;
 }
 .advertise .con {
   max-width: 1420px;
@@ -999,7 +1007,7 @@ main .main_visual {
 }
 /* 섹션 5 🍅🍅🍅 */
 .news.active {
-  animation: sectionUp 0.8s linear both;
+  animation: sectionUp 1s 0.3s linear both;
 }
 .news .con {
   height: 100vh;

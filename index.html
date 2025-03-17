@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./assets/img/favicon.png" />
     <link rel="stylesheet" href="./assets/css/layout.css" />
     <link rel="stylesheet" href="./assets/css/fullpage.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -501,12 +502,18 @@
           <div class="con">
             <div class="left">
               <h2>연혁</h2>
+              <a href="#" class="m_tab">
+                <span id="output">2023</span>
+                <i class="xi-caret-down-min arrow"></i>
+              </a>
               <div class="year_tab">
-                <button data-tabslide="#slide1" class="on">2023</button>
-                <button data-tabslide="#slide2">2022</button>
-                <button data-tabslide="#slide3">2021</button>
-                <button data-tabslide="#slide4">2020</button>
-                <button data-tabslide="#slide5">2019</button>
+                <button data-tabslide="#slide1" value="2023" class="on">
+                  2023
+                </button>
+                <button data-tabslide="#slide2" value="2022">2022</button>
+                <button data-tabslide="#slide3" value="2021">2021</button>
+                <button data-tabslide="#slide4" value="2020">2020</button>
+                <button data-tabslide="#slide5" value="2019">2019</button>
               </div>
             </div>
             <div class="right">
@@ -775,7 +782,9 @@
             <div class="brand_top">
               <h2>
                 디테일의 차이로 <br />
-                광고주님의 <span class="blue">만족</span>을 높입니다.
+                광고주님의 <span class="blue">만족</span>을
+                <br class="mobile" />
+                높입니다.
               </h2>
               <img src="./assets/img/visual-img5.png" alt="img" />
             </div>
@@ -990,7 +999,7 @@
             <h2>
               키워드랩은<br />언제나 새로운 기회를<br />기다리고 있습니다.
             </h2>
-            <a href=""> <img src="./assets/img/visual-img4.png" alt /> </a>
+            <a href="#"> <img src="./assets/img/visual-img4.png" alt /> </a>
           </div>
         </section>
         <footer class="section footer fp-auto-height">

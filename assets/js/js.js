@@ -248,3 +248,18 @@ $(".bottom_visual .con").hover(
     });
   }
 );
+
+$(".m_tab").on("click", function (e) {
+  e.preventDefault();
+  $(".year_tab").toggleClass("on");
+});
+
+const buttons = document.querySelectorAll(".year_tab button");
+const output = document.getElementById("output");
+buttons.forEach((button) => {
+  button.addEventListener("click", function () {
+    output.textContent = this.value;
+    $(".history .year_tab").removeClass("on");
+    //on을 제거하여 on클래스가 추가할 수 있는 상태로 만들어줌
+  });
+});
